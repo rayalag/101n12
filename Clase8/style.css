@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: black;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 20px;
+}
+
+header>nav{
+    display: flex;
+    flex-direction: row;
+}
+
+header>img{
+    height: 50px;
+}
+
+main{
+    margin-top: 30px;
+    text-align: center;
+}
+
+main>h1{
+    font-size: 50px;
+}
+main>h2{
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#buy{
+    height: 35px;
+    width: 125px;
+    background-color: #4547e0;
+    border: none;
+    border-radius: 16px;
+}
+#more{
+    height: 35px;
+    width: 125px;
+    background-color: #000000;
+    border: 1px solid #4547e0;
+    border-radius: 16px;
+}
