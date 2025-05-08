@@ -13,14 +13,14 @@
         justify-content: center;
         align-items: center;
         height: 100vh;
-        background-color: bisque;
+        background-color: hsl(30, 38%, 92%);
     
     }
     
     .card{
         width: 400px;
         border-radius: 10px;
-        background-color: hsl(30, 38%, 92%);
+        background-color: hsl(0, 0%, 100%);
         box-shadow: 1px 2px 10px hsl(212, 21%, 14%);
         
     }
